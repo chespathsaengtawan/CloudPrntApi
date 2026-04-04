@@ -31,3 +31,4 @@ D:\MAUI\CloudPRNT\CloudPrntApi\obj\Debug\net10.0\refint\CloudPrntApi.dll
 D:\MAUI\CloudPRNT\CloudPrntApi\obj\Debug\net10.0\CloudPrntApi.pdb
 D:\MAUI\CloudPRNT\CloudPrntApi\obj\Debug\net10.0\CloudPrntApi.genruntimeconfig.cache
 D:\MAUI\CloudPRNT\CloudPrntApi\obj\Debug\net10.0\ref\CloudPrntApi.dll
+D:\MAUI\CloudPRNT\CloudPrntApi\obj\Debug\net10.0\CloudPrntApi.sourcelink.json

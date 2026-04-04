@@ -1,0 +1,32 @@
+steps:
+  # Build the Docker image
+  - name: 'gcr.io/cloud-builders/docker'
+    args:
+      - 'build'
+      - '-t'
+      - 'gcr.io/$PROJECT_ID/cloudprnt-api:latest'
+      - '.'
+
+  # Push the image to Container Registry
+  - name: 'gcr.io/cloud-builders/docker'
+    args:
+      - 'push'
+      - 'gcr.io/$PROJECT_ID/cloudprnt-api:latest'
+
+  # Deploy to Cloud Run
+  - name: 'gcr.io/cloud-builders/run'
+    args:
+      - 'deploy'
+      - 'cloudprnt-api'
+      - '--image'
+      - 'gcr.io/$PROJECT_ID/cloudprnt-api:latest'
+      - '--region'
+      - 'us-central1'
+      - '--platform'
+      - 'managed'
+      - '--allow-unauthenticated'
+
+images:
+  - 'gcr.io/$PROJECT_ID/cloudprnt-api:latest'
+
+timeout: '1200s'

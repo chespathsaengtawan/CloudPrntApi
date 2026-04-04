@@ -16,5 +16,9 @@ if (app.Environment.IsDevelopment())
 app.UseHttpsRedirection();
 app.MapControllers();
 
+// Read port from environment variable (for Railway deployment)
+var port = Environment.GetEnvironmentVariable("PORT") ?? "8080";
+app.Urls.Add($"http://+:{port}");
+
 app.Run();
 
