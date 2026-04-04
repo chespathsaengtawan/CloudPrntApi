@@ -1,0 +1,24 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloudPrntApi", "CloudPrntApi.csproj", "{5B142EA9-4B7E-EF03-9FFE-569E9694D15B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5B142EA9-4B7E-EF03-9FFE-569E9694D15B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B142EA9-4B7E-EF03-9FFE-569E9694D15B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B142EA9-4B7E-EF03-9FFE-569E9694D15B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B142EA9-4B7E-EF03-9FFE-569E9694D15B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {046B933A-0EEA-40A9-AD5E-2D445A848C6B}
+	EndGlobalSection
+EndGlobal

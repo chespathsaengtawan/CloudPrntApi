@@ -1,0 +1,6 @@
+@CloudPrntApi_HostAddress = http://localhost:5019
+
+GET {{CloudPrntApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
